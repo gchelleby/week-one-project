@@ -1,0 +1,316 @@
+/* Start Michelle Green's Portion */
+* {
+    box-sizing: border-box;
+}
+/* 
+Global Styling 
+*/
+body {
+    font-family: Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+/* 
+Header Styling 
+*/
+.mg-navimg{
+    max-width: 150px;
+    grid-area: mg-navimg;
+    margin-left: 40px;
+}
+.mg-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mg-navli{
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 90%;
+    color: black;
+}
+.mg-black-a{
+    color: black;
+}
+.mg-white-a{
+    color: #FFFFFF;
+}
+.mg-btns{
+    display: flex;
+    align-items: end;
+    margin-right: 30px;
+}
+.mg-btn1{
+    margin-right: 15px;
+    color: #0850F8;
+    border: 1.5px solid #0850F8;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+/* FIX THE TEXT COLOR!!!!!!!!!!!!!! */
+.mg-btn2{
+    color: #FFFFFF;
+    background-color: #0850F8;
+    border-radius: 5px;
+    padding: 5px 5px;
+    border-color: transparent;
+}
+/* 
+Hero Styling 
+*/
+.mg-grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid black;
+}
+.mg-card1{
+    display: block;
+    align-items: left;
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 550px;
+}
+.mg-h1{
+    font-size: 40px;
+}
+.mg-h2{
+    font-weight: 300;
+}
+.mg-p1{
+    color: gray;
+    font-weight: 550;
+}
+.mg-btn3{
+    background-color: #0850F8;
+    color: #FFFFFF;
+    border-color: transparent;
+    padding: 2px 10px 5px 10px;
+    border-radius: 5px;
+}
+.mg-btn4{
+    border: 1px solid #0850F8;
+    color: #0850F8;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.mg-btnimg1{
+    padding-left: 15px;
+}
+.mg-btnimg2{
+    padding-right: 10px;
+}
+.mg-p2{
+    color: gray;
+    font-weight: 500;
+}
+.mg-span1{
+    font-weight: 550;
+}
+.mg-trialimg{
+    width: 60px;
+}
+.mg-manageimg{
+    width: 116px;
+}
+.mg-cancelimg{
+    width: 70px;
+}
+.mg-blueimg{
+    width: 8px;
+}
+.mg-tiles{
+    width: 380px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+/* 
+Explore 
+*/
+.mg-h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+.mg-p3{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.mg-exploregrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "mg-cardOne mg-cardTwo mg-cardThree mg-cardFour";   
+    justify-items: center;
+}
+.mg-cardOne{
+    grid-area: mg-cardOne;
+    border: 1px solid black;
+    background-color: #0850F8;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    width: 130px;
+    height: 150px;
+    padding-top: 20px;
+}
+.mg-cardTwo{
+    grid-area: mg-cardTwo;
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    width: 130px;
+    height: 150px;
+    padding-top: 35px;
+}
+.mg-cardThree{
+    grid-area: mg-cardThree;
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    width: 130px;
+    height: 150px;
+    padding-top: 20px;
+}
+.mg-cardFour{
+    grid-area: mg-cardFour;
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    width: 130px;
+    height: 150px;
+    padding-top: 20px;
+}
+/* 
+Man with Card 
+*/
+.mg-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "mg-man mg-mancard";
+    margin-top: 180px;
+}
+.mg-man{
+    grid-area: mg-man;
+    width: 370px;
+    padding-top: 180px;
+    padding-bottom: 150px;
+    margin-left: 50px;
+    border: 1px solid #707070;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+}
+.mg-mancard{
+    grid-area: mg-mancard;
+    border: 1px solid #707070;
+    border-bottom-right-radius: 26px;
+    border-top-right-radius: 26px;
+    background-color: #0850F8;
+    color: #FFFFFF;
+    margin-right: 50px;
+    width:650px;
+    height:554px;
+    padding: 41px 10px 10px 20px;
+}
+.mg-btn5{
+    background-color: #0850F8;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 50px 8px 50px;
+    margin-left: 40px;
+}
+.mg-btnimg3{
+    margin-left: 50px;
+}
+/* 
+Business Needs
+*/
+.mg-needscards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "mg-email mg-task"
+    "mg-analytics mg-calendars";
+    text-align: center;
+    gap:40px;
+    margin-top: 90px;
+    margin-bottom: 110px;
+}
+.mg-email{
+    grid-area: mg-email;
+    text-align: center;
+}
+.mg-task{
+    grid-area: mg-task;
+    text-align: center;
+}
+.mg-analytics{
+    grid-area: mg-analytics;
+    text-align: center;
+}
+.mg-calendars{
+    grid-area: mg-calendars;
+    text-align: center;
+}
+.mg-needsimg{
+    border: 1px solid #707070;
+    background-color: #E5EFFF;
+    border-radius: 88px;
+    padding: 20px;
+    width: 130px;
+}
+.mg-needsbtn{
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.mg-needsarrow{
+    padding-left: 40px;
+}
+/* 
+Footer Styling 
+*/
+.mg-footer{
+    background-color: #0850F8;
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.mg-greenbtn{
+    background-color: #7FD126;
+    color: white;
+    border-color: transparent;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px 30px 5px 30px;
+    margin-right: 20px;
+}
+.mg-chatbtn{
+    border-radius: 6px;
+    border-color: transparent;
+    color: #0850F8;
+    padding: 2px 30px 5px 30px;
+    margin-left: 20px;
+}
